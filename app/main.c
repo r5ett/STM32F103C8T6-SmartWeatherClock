@@ -132,7 +132,6 @@ int main(void)
 #include "OLED.h"
 #include "rtc.h"
 #include "timer.h"
-#include "MyRTC.h"
 
 extern time_t g_timestamp;
 extern char g_city[32];

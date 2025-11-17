@@ -17,20 +17,26 @@ Library Manager: ArmAr.exe V5.06 update 5 (build 528)
 Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
 CPU DLL:         SARMCM3.DLL V5.24.1
 Dialog DLL:      DCM.DLL V1.16.0.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
 Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
 D:\edge_download\STM32\prj\06智能天气时钟代码\智能天气时钟\mdk\stm32f103.uvprojx
-Project File Date:  11/15/2025
+Project File Date:  11/17/2025
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\edge_download\STM32\Keil_v5\ARM\ARMCC\Bin'
 Build target 'project'
-compiling MyRTC.c...
+compiling rtc.c...
+compiling main.c...
+..\app\main.c(179): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+  	TFT_display_en_string8_16(ASCII8x16_Table,g_weather,30,90,
+ED, 
+LACK);
+..\app\main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=13424 RO-data=33880 RW-data=60 ZI-data=9532  
-".\Objects\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=13172 RO-data=33868 RW-data=48 ZI-data=9528  
+".\Objects\stm32f103.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 

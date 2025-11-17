@@ -43,4 +43,3 @@
 .\objects\main.o: ..\driver\oled\OLED.h
 .\objects\main.o: ..\driver\rtc\rtc.h
 .\objects\main.o: ..\driver\timer\timer.h
-.\objects\main.o: ..\driver\rtc\MyRTC.h

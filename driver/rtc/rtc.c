@@ -23,7 +23,7 @@ static bool date_validate(const rtc_date_t *date)
     return true;
 }
 
-uint32_t date_to_ts(const rtc_date_t *date)
+uint32_t date_to_ts(const rtc_date_t *date) 
 {
     uint16_t year = date->year;
     uint8_t month = date->month;
@@ -119,14 +119,44 @@ void ts_to_date(uint32_t seconds, rtc_date_t *date)
     date->day = seconds;
 }
 
-void rtc_init(void)
+/**
+  * 函    数：RTC初始化
+  * 参    数：无
+  * 返 回 值：无
+  */
+void MyRTC_Init(void)
 {
-    RCC_RTCCLKConfig(RCC_RTCCLKSource_LSE);
-    RCC_RTCCLKCmd(ENABLE);
-    RTC_WaitForSynchro();
-    RTC_WaitForLastTask();
-    RTC_SetPrescaler(32767);
-    RTC_WaitForLastTask();
+	/*开启时钟*/
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);		//开启PWR的时钟
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_BKP, ENABLE);		//开启BKP的时钟
+	
+	/*备份寄存器访问使能*/
+	PWR_BackupAccessCmd(ENABLE);							//使用PWR开启对备份寄存器的访问
+	
+	if (BKP_ReadBackupRegister(BKP_DR1) != 0xA5A5)			//通过写入备份寄存器的标志位，判断RTC是否是第一次配置
+															//if成立则执行第一次的RTC配置
+	{
+		RCC_LSEConfig(RCC_LSE_ON);							//开启LSE时钟
+		while (RCC_GetFlagStatus(RCC_FLAG_LSERDY) != SET);	//等待LSE准备就绪
+		
+		RCC_RTCCLKConfig(RCC_RTCCLKSource_LSE);				//选择RTCCLK来源为LSE
+		RCC_RTCCLKCmd(ENABLE);								//RTCCLK使能
+		
+		RTC_WaitForSynchro();								//等待同步
+		RTC_WaitForLastTask();								//等待上一次操作完成
+		
+		RTC_SetPrescaler(32768 - 1);						//设置RTC预分频器，预分频后的计数频率为1Hz
+		RTC_WaitForLastTask();								//等待上一次操作完成
+		
+		//MyRTC_SetTime();									//设置时间，调用此函数，全局数组里时间值刷新到RTC硬件电路
+		
+		BKP_WriteBackupRegister(BKP_DR1, 0xA5A5);			//在备份寄存器写入自己规定的标志位，用于判断RTC是不是第一次执行配置
+	}
+	else													//RTC不是第一次配置
+	{
+		RTC_WaitForSynchro();								//等待同步
+		RTC_WaitForLastTask();								//等待上一次操作完成
+	}
 }
 
 void rtc_set_date(rtc_date_t *date)

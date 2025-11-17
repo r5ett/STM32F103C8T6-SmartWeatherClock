@@ -431,19 +431,14 @@
               <FilePath>..\driver\ST7789\Font.c</FilePath>
             </File>
             <File>
-              <FileName>rtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\driver\rtc\rtc.c</FilePath>
-            </File>
-            <File>
               <FileName>timer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\driver\timer\timer.c</FilePath>
             </File>
             <File>
-              <FileName>MyRTC.c</FileName>
+              <FileName>rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\rtc\MyRTC.c</FilePath>
+              <FilePath>..\driver\rtc\rtc.c</FilePath>
             </File>
           </Files>
         </Group>
