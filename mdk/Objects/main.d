@@ -40,6 +40,5 @@
 .\objects\main.o: ..\app\usart2.h
 .\objects\main.o: ..\driver\wifi\wifi.h
 .\objects\main.o: D:\edge_download\STM32\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
-.\objects\main.o: ..\driver\oled\OLED.h
 .\objects\main.o: ..\driver\rtc\rtc.h
 .\objects\main.o: ..\driver\timer\timer.h

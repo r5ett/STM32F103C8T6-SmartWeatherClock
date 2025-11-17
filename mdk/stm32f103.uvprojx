@@ -416,11 +416,6 @@
               <FilePath>..\driver\wifi\wifi.c</FilePath>
             </File>
             <File>
-              <FileName>OLED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\driver\oled\OLED.c</FilePath>
-            </File>
-            <File>
               <FileName>ST7789.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\driver\ST7789\ST7789.c</FilePath>

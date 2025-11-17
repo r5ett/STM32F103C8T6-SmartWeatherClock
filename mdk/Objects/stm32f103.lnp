@@ -5,7 +5,6 @@
 ".\objects\usart2.o"
 ".\objects\sys.o"
 ".\objects\wifi.o"
-".\objects\oled.o"
 ".\objects\st7789.o"
 ".\objects\font.o"
 ".\objects\timer.o"

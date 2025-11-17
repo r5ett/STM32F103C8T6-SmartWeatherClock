@@ -9,6 +9,8 @@ static timer_elapsed_callback_t timer_elapsed_callback;
 
 void timer_init(uint32_t period_us)
 {
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+    
     TIM_TimeBaseInitTypeDef TIM_TimeBaseStructure;
     TIM_TimeBaseStructure.TIM_Prescaler = 72 - 1;
     TIM_TimeBaseStructure.TIM_Period = period_us - 1;
