@@ -1,0 +1,1097 @@
+Dependencies for Project 'stm32f103', Target 'project': (DO NOT MODIFY !)
+F (..\app\main.c)(0x6918639C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\driver\ST7789\ST7789.h)(0x69173720)
+I (..\driver\ST7789\Font.h)(0x6916DEE9)
+I (..\driver\ST7789\image.h)(0x6915E132)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\app\Delay.h)(0x6913338E)
+I (..\app\sys.h)(0x64D203B4)
+I (..\app\usart.h)(0x64D203B4)
+I (..\app\usart2.h)(0x6912EF9D)
+I (..\driver\wifi\wifi.h)(0x6913F121)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (..\driver\oled\OLED.h)(0x63087D1F)
+I (..\driver\rtc\rtc.h)(0x6916F22A)
+I (..\driver\timer\timer.h)(0x6916E404)
+I (..\driver\rtc\MyRTC.h)(0x64A7DC14)
+F (..\app\delay.c)(0x691333BD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\app\delay.h)(0x6913338E)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\app\usart.c)(0x64D203B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\app\sys.h)(0x64D203B4)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\app\usart.h)(0x64D203B4)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\app\usart2.c)(0x6912F581)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (..\app\delay.h)(0x6913338E)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\app\usart2.h)(0x6912EF9D)
+I (..\app\sys.h)(0x64D203B4)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\app\sys.c)(0x64D203B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\app\sys.h)(0x64D203B4)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\driver\wifi\wifi.c)(0x6913E885)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\wifi.o --omf_browse .\objects\wifi.crf --depend .\objects\wifi.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\driver\wifi\wifi.h)(0x6913F121)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (..\app\delay.h)(0x6913338E)
+I (..\app\usart.h)(0x64D203B4)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\app\sys.h)(0x64D203B4)
+I (..\app\usart2.h)(0x6912EF9D)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (..\driver\oled\OLED.c)(0x6913060D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\driver\oled\OLED_Font.h)(0x63087D23)
+F (..\driver\ST7789\ST7789.c)(0x6916DEEE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\st7789.o --omf_browse .\objects\st7789.crf --depend .\objects\st7789.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\app\delay.h)(0x6913338E)
+I (..\driver\ST7789\ST7789.h)(0x69173720)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\driver\ST7789\Font.h)(0x6916DEE9)
+F (..\driver\ST7789\Font.c)(0x6916DEE8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\font.o --omf_browse .\objects\font.crf --depend .\objects\font.d)
+I (..\driver\ST7789\Font.h)(0x6916DEE9)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\driver\rtc\rtc.c)(0x69171ECF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\driver\rtc\rtc.h)(0x6916F22A)
+F (..\driver\timer\timer.c)(0x6916E3FE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\driver\timer\timer.h)(0x6916E404)
+F (..\driver\rtc\MyRTC.c)(0x6919D12B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (..\driver\rtc\MyRTC.h)(0x64A7DC14)
+F (..\firmware\cmsis\device\startup_stm32f10x_md.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (..\firmware\cmsis\core\core_cm3.c)(0x61605444)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\firmware\cmsis\device\system_stm32f10x.c)(0x61605442)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\misc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_adc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_bkp.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_can.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_cec.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_crc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_dac.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_dbgmcu.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_dma.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_exti.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_flash.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_fsmc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_gpio.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_i2c.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_iwdg.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_pwr.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_rcc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_rtc.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_sdio.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_spi.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_tim.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_usart.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)
+F (..\firmware\driver\src\stm32f10x_wwdg.c)(0x61605445)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\firmware\cmsis\core -I ..\firmware\cmsis\device -I ..\firmware\driver\inc -I ..\driver\wifi -I ..\driver\oled -I ..\driver\ST7789 -I ..\driver\rtc -I ..\driver\timer-I.\RTE\_project-ID:\edge_download\STM32\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\edge_download\STM32\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+I (..\firmware\driver\inc\stm32f10x_wwdg.h)(0x61605445)
+I (..\firmware\cmsis\device\stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\core\core_cm3.h)(0x61605444)
+I (D:\edge_download\STM32\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\firmware\cmsis\device\system_stm32f10x.h)(0x61605444)
+I (..\firmware\cmsis\device\stm32f10x_conf.h)(0x61605441)
+I (..\firmware\driver\inc\stm32f10x_adc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_bkp.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_can.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_cec.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_crc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dac.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dbgmcu.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_dma.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_exti.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_flash.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_fsmc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_gpio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_i2c.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_iwdg.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_pwr.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rcc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_rtc.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_sdio.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_spi.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_tim.h)(0x61605445)
+I (..\firmware\driver\inc\stm32f10x_usart.h)(0x61605445)
+I (..\firmware\driver\inc\misc.h)(0x61605445)

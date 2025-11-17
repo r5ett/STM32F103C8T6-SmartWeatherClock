@@ -1,0 +1,31 @@
+# 编译产物（MDK-ARM输出文件）
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.obj
+MDK-ARM/*.lst
+MDK-ARM/*.d
+MDK-ARM/*.crf
+MDK-ARM/*.htm
+MDK-ARM/*.dep
+MDK-ARM/*.log
+MDK-ARM/*.build_log.htm
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# IDE配置（避免不同电脑的配置冲突）
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvprojx.bak
+.mxproject.bak
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store  # 如果你用Mac
+
+# CubeMX生成的临时文件（保留.ioc即可）
+Core/Inc/*.h.bak
+Core/Src/*.c.bak
+Drivers/STM32F1xx_HAL_Driver/Inc/*.h.bak
+Drivers/STM32F1xx_HAL_Driver/Src/*.c.bak
