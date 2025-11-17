@@ -1,0 +1,136 @@
+AR+CWMODE=1
+AT+CWJAP="r5ett","20011212"
+AT+CIPSTART="TCP","api.seniverse.com",80
+使能esp8266透传模式
+AT+CIPMODE=1
+开启数据传输
+AT+CIPSEND
+心知天气
+GET https://api.seniverse.com/v3/weather/now.json?key=SO6RLcWaPVlrrBjr1&location=shenzhen&language=en&unit=c
+退出透传，取消发送新行
++++
+禁止esp8266透传模式
+AT+CIPMODE=0
+断开服务器连接
+AT+CIPCLOSE
+
+配置 NTP（网络时间协议）客户端
+AT+CIPSNTPCFG=1,8,"ntp.aliyun.com"
+时间戳
+AT+SYSTIMESTAMP?
+
+{
+	"results":[
+		{
+			"location":{
+				"id":"WS10730EM8EV",
+				"name":"Shenzhen",
+				"country":"CN",
+				"path":"Shenzhen,Shenzhen,Guangdong,China",
+				"timezone":"Asia/Shanghai",
+				"timezone_offset":"+08:00"
+				},
+			"now":{
+				"text":"Overcast",
+				"code":"9",
+				"temperature":"24"
+			},
+			"last_update":"2025-11-10T20:10:19+08:00"
+		}
+	]
+}
+
+通过32发
+[Rx][11:20:17.489] AT
+[Tx][11:20:18.572] OK
+[Tx][11:20:18.572] 
+[Rx][11:20:18.604] AT+RST
+[Tx][11:20:19.387] OK
+[Tx][11:20:19.387] 
+[Rx][11:20:19.417] AT+CWMODE=1
+[Tx][11:20:20.267] OK
+[Tx][11:20:20.267] 
+[Rx][11:20:20.298] AT+CWJAP="r5ett","20011212"
+[Tx][11:20:21.323] OK
+[Tx][11:20:21.323] 
+[Rx][11:20:21.344] AT+CIPSTART="TCP","api.seniverse.com",80
+[Tx][11:20:22.523] OK
+[Tx][11:20:22.523] 
+[Rx][11:20:22.555] AT+CIPMODE=1
+[Tx][11:20:24.075] OK
+[Tx][11:20:24.075] 
+[Rx][11:20:24.106] AT+CIPSEND
+[Tx][11:20:25.163] OK
+[Tx][11:20:25.163] 
+[Rx][11:20:25.184] GET https://api.seniverse.com/v3/weather/now.json?key=SO6RLcWaPVlrrBjr1&location=shenzhen&language=en&unit=c
+[Tx][11:20:26.251] OK
+[Tx][11:20:26.251] 
+[Rx][11:20:26.271] +++
+[Rx][11:20:26.271] AT+CIPMODE=0
+[Tx][11:20:27.267] OK
+[Tx][11:20:27.267] 
+[Rx][11:20:27.288] AT+CIPCLOSE
+[Tx][11:20:28.260] OK
+[Tx][11:20:28.260] 
+
+通过串口发
+[Tx][14:51:56.320] AT
+[Rx][14:51:56.332] AT
+[Rx][14:51:56.332] 
+[Rx][14:51:56.332] OK
+[Tx][14:52:01.952] AT+RST
+[Tx][14:52:01.952] 
+[Rx][14:52:01.964] AT+RST
+[Rx][14:52:01.964] 
+[Rx][14:52:01.964] busy p...
+[Rx][14:52:01.964] 
+[Rx][14:52:01.964] OK
+[Rx][14:52:01.994] WIFI DISCONNECT
+[Rx][14:52:02.074] {lp鹓lcn鈢那|c岥g'g'l`or菦鞊`8鹢;劀茔b'銃鋖l膰#岓ogo'lo;嚊踘冔揱s蹞n脫沗
+[Rx][14:52:02.334] ################################################
+[Rx][14:52:02.344] arch:ESP8266, 1
+[Rx][14:52:02.344] compile_time:Ai-Thinker|B&T
+[Rx][14:52:02.344] wifi_mac:483FDA4d31C2
+[Rx][14:52:02.344] sdk_version:v3.4-22-g967752e2
+[Rx][14:52:02.354] firmware_version:2.2.0
+[Rx][14:52:02.354] compile_time:Jun 30 2021 11:28:20
+[Rx][14:52:02.354] 
+[Rx][14:52:02.354] ready
+[Rx][14:52:02.354] 
+[Rx][14:52:02.354] ################################################WIFI CONNECTED
+[Rx][14:52:03.274] WIFI GOT IP
+[Tx][14:52:14.866] AT+CIPSTART="TCP","api.seniverse.com",80
+[Rx][14:52:14.877] AT+CIPSTART="TCP","api.seniverse.com",80
+[Rx][14:52:15.267] CONNECT
+[Rx][14:52:15.267] 
+[Rx][14:52:15.267] OK
+[Tx][14:52:19.705] AT+CIPMODE=1
+[Rx][14:52:19.717] AT+CIPMODE=1
+[Rx][14:52:19.717] 
+[Rx][14:52:19.717] OK
+[Tx][14:52:25.179] AT+CIPSEND
+[Rx][14:52:25.190] AT+CIPSEND
+[Rx][14:52:25.190] 
+[Rx][14:52:25.190] OK
+[Rx][14:52:25.190] 
+[Rx][14:52:25.190] >
+[Tx][14:52:29.770] GET https://api.seniverse.com/v3/weather/now.json?key=SO6RLcWaPVlrrBjr1&location=shenzhen&language=en&unit=c
+[Rx][14:52:30.013] {"results":[{"location":{"id":"WS10730EM8EV","name":"Shenzhen","country":"CN","path":"Shenzhen,Shenzhen,Guangdong,China","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"Cloudy","code":"4","temperature":"22"},"last_update":"2025-11-11T14:35:30+08:00"}]}
+[Tx][14:52:34.850] +++
+[Tx][14:52:41.571] AT+CIPMODE=0
+[Rx][14:52:41.583] AT+CIPMODE=0
+[Rx][14:52:41.583] 
+[Rx][14:52:41.583] OK
+[Tx][14:52:46.883] AT+CIPCLOSE
+[Rx][14:52:46.896] AT+CIPCLOSE
+[Rx][14:52:46.906] CLOSED
+[Rx][14:52:46.906] 
+[Rx][14:52:46.906] OK
+[Tx][14:52:53.004] AT+CIPSNTPCFG=1,8,"ntp.aliyun.com"
+[Rx][14:52:53.015] AT+CIPSNTPCFG=1,8,"ntp.aliyun.com"
+[Rx][14:52:53.025] 
+[Rx][14:52:53.025] OK
+[Tx][14:52:57.644] AT+SYSTIMESTAMP?
+[Rx][14:52:57.655] AT+SYSTIMESTAMP?
+[Rx][14:52:57.655] +SYSTIMESTAMP:1762843977
+[Rx][14:52:57.665] OK
